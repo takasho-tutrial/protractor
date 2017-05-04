@@ -16,8 +16,11 @@
   },
   "homepage": "https://github.com/takasho-tutrial/protractor#readme",
   "devDependencies": {
+    "babel": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
     "mocha": "^3.3.0",
     "power-assert": "^1.4.2",
     "protractor": "^5.1.1"

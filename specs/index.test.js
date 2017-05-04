@@ -1,18 +1,21 @@
-import { describe, it } from 'mocha';
-import assert from 'power-assert';
-// const assert = require('power-assert')
-// const browser = require('protractor').browser
+const assert = require('power-assert')
+const browser = require('protractor').browser
+const chai = require('chai');
+const chaiAsPromised = require('chai-as-promised');
 
 describe('protractor test', () => {
+    chai.use(chaiAsPromised);
+    const expect = chai.expect;
     it('google.co.jp', (done) => {
-        browser.get('https://google.co.jp');
+        // browser.get('https://google.co.jp');
         // assert.equal(browser.getTitle(), 'Google')
-        console.log(browser.getTitle())
+        // expect(browser.getTitle()).toEqual('Google');
+        // browser.getTitle().then((title) => {
+        //     console.log(title)
+        //     done()
+        // })
+    browser.get('http://juliemr.github.io/protractor-demo/');
+    expect(browser.getTitle()).toEqual('Super Calculator');
+    done();
     })
 })
-
-// describe('Protractor Demo App', function() {
-//   it('should have a title', function() {
-//     browser.get('http://juliemr.github.io/protractor-demo/');
-//   });
-// });
