@@ -1,5 +1,7 @@
 sudo: false
-language: node_js
+language:
+  - node_js
+  - java
 node_js:
   - stable
   - 6
