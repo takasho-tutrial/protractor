@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "protractor protractor.conf.js",
-    "start": "webdriver-manager update && webdriver-manager start"
+    "start": "webdriver-manager start",
+    "prestart": "webdriver-manager update"
   },
   "repository": "git+https://github.com/takasho-tutrial/protractor.git",
   "keywords": [],
