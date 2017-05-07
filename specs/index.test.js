@@ -7,7 +7,7 @@ describe('protractor test', () => {
       browser.ignoreSynchronization = true;
     });
 
-    it('google.co.jp', (done) => {
+    it('UT Examples', (done) => {
     browser.get('http://uncovertruth.github.io/examples/');
     browser.getTitle().then((title) => {
       assert.equal(title, 'USERDIVE examples')
