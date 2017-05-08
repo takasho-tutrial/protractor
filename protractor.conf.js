@@ -9,5 +9,6 @@ exports.config = {
     ui: 'bdd',
     reporter: 'spec'
   },
-  specs: ['specs/*.test.js']
+  specs: ['specs/*.test.js'],
+  directConnect: true
 };
