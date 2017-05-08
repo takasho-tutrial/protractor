@@ -1,7 +1,7 @@
 require("babel-register")({
   only: /specs/,
   plugins: ['babel-plugin-espower'],
-  extensions: ['.es6', '.js']
+  extensions: ['.js']
 });
 exports.config = {
   framework: 'mocha',
