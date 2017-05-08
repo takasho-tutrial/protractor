@@ -7,5 +7,5 @@
 ##Install
 `yarn`
 
-##Execute
+##Test
 `npm start & npm test`
