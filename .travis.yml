@@ -5,6 +5,7 @@ node_js:
 - stable
 - 6
 addons:
+  firefox: latest
   sources:
     - google-chrome
   apt:
