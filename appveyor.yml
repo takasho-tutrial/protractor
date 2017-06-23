@@ -8,6 +8,6 @@ matrix:
 install:
   - ps: Install-Product node $env:nodejs_version
   - yarn
-test:
+test_script:
   - npm run appveyor
 build: off
