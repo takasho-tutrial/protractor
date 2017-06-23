@@ -8,6 +8,5 @@ matrix:
 install:
   - ps: Install-Product node $env:nodejs_version
   - yarn
-before_test:
-  - npm start && sleep 15
+  - npm start
 build: off
