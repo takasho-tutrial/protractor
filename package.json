@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "appveyor": "eslint . --cache",
-    "test": "protractor protractor.conf.js",
+    "test": "npm-run-all -p test:*",
+    "test:eslint": "eslint . --cache",
+    "test:e2e": "protractor protractor.conf.js",
     "prestart": "webdriver-manager update",
     "start": "webdriver-manager start"
   },
@@ -24,6 +25,7 @@
     "babel-register": "^6.24.1",
     "eslint": "^4.0.0",
     "mocha": "^3.4.2",
+    "npm-run-all": "^4.0.2",
     "power-assert": "^1.4.2",
     "protractor": "^5.1.2"
   }

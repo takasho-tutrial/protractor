@@ -4,8 +4,8 @@ exports.config = {
     ui: 'bdd',
     reporter: 'spec'
   },
-  onPrepare: function () {
-    require("babel-register");
+  onPrepare: () => {
+    require('babel-register')
   },
   specs: ['specs/*.test.js']
 }
