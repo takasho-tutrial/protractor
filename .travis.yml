@@ -6,6 +6,9 @@ node_js:
 - 7
 - 6
 - 5
+matrix:
+  allow_failures:
+    - node_js: 5
 addons:
   sources:
     - google-chrome

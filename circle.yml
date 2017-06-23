@@ -11,5 +11,5 @@ dependencies:
 test:
   pre:
     - npm start:
-      background: true
+        background: true
     - sleep 15
