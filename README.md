@@ -1,7 +1,7 @@
 # takasho-tutrial/protractor
-[![CircleCI][circleci-img]](circleci-url)
-[![Build Status][travis-img]](travis-url)
-[![Build status][appveyor-img]](appveyor-url)
+[![CircleCI][circleci-img]][circleci-url]
+[![Build Status][travis-img]][travis-url]
+[![Build status][appveyor-img]][appveyor-url]
 
 [circleci-img]: https://circleci.com/gh/takasho-tutrial/protractor/tree/master.svg?style=svg
 [circleci-url]: https://circleci.com/gh/takasho-tutrial/protractor/tree/master
