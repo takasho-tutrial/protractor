@@ -4,6 +4,6 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - yarn
 before_test:
-  - npm start &&
+  - npm start |
   - sleep 15
 build: off
