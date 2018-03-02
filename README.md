@@ -1,4 +1,6 @@
 # takasho-tutrial/protractor
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/takasho-tutrial/protractor.svg)](https://greenkeeper.io/)
 [![CircleCI][circleci-img]][circleci-url]
 [![Build Status][travis-img]][travis-url]
 [![Build status][appveyor-img]][appveyor-url]
