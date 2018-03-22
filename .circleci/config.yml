@@ -12,3 +12,11 @@ jobs:
           command: npm run start
           background: true
       - run: sleep 15
+  test:
+    docker:
+      - image: circleci/node:8-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: yarn
+      - run: npm run test
