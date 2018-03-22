@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8-browsers
+      working_directry: ~/repo
+      steps:
+        - checkout
+        - run: yarn
+        - run:
+          name: start
+          command: npm run start
+          background: true
+        - sleep 15
