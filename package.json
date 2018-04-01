@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/takasho-tutrial/protractor#readme",
   "devDependencies": {
-    "@takasho/eslint-config-flowtype": "0.0.12",
+    "@takasho/eslint-config-flowtype": "0.0.13",
     "babel": "6.23.0",
     "babel-preset-env": "1.6.1",
     "babel-register": "6.26.0",

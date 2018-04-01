@@ -71,9 +71,9 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@takasho/eslint-config-flowtype@0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@takasho/eslint-config-flowtype/-/eslint-config-flowtype-0.0.12.tgz#9c8d1dd576eb584af8048e0bc7f65ebe38dbb7cc"
+"@takasho/eslint-config-flowtype@0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@takasho/eslint-config-flowtype/-/eslint-config-flowtype-0.0.13.tgz#abba8a48c8c1ce509c0db27f97ddca9ecdeb2238"
   dependencies:
     "@takasho/eslint-config" "^0.0.10"
     babel-eslint "^8.2.2"
